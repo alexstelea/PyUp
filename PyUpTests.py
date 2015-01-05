@@ -63,7 +63,7 @@ class MyTestCase(unittest.TestCase):
         self.assertIsNotNone(data['data'])
         self.assertIsNotNone(data_generic['data'])
 
-    def test_get_moves_list(self):git 
+    def test_get_moves_list(self):
         data = self.j.get_moves_list(self.access_token)
         data_generic = self.j.get_generic_api_call(self.access_token, endpoint='/users/@me/moves')
         self.assertIs(data['meta']['code'], 200)
