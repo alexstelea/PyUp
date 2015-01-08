@@ -49,7 +49,7 @@ class MyTestCase(unittest.TestCase):
 
     def test_get_trends(self):
         data = self.j.get_trends(self.access_token)
-        data_generic = self.j.get_generic_api_call(self.access_token, endpoint='/users/@me/trends')
+        data_generic = self.j.get_generic_api_call(self.access_token, 1, endpoint='/users/@me/trends')
         self.assertIs(data['meta']['code'], 200)
         self.assertIs(data_generic['meta']['code'], 200)
         self.assertIsNotNone(data['data'])
