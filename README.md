@@ -35,7 +35,7 @@ Usage
  - [Workout Ticks](#get-workout-ticks)
 - [Trends](#trends)
 - [Moves](#moves)
- - [Moves List](#get-the-users-moves-list)
+ - [Moves List](#get-the-users-move-list)
  - [Specific Move Info](#get-the-information-about-a-specific-move)
  - [Move Graphs](#get-the-users-move-graphs)
  - [Move Ticks](#get-move-ticks)
