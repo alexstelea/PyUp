@@ -1,3 +1,5 @@
+
+![PyUp](https://jawbone.com/images/products/up/support/support-nav.png)
 PyUp
 ===========
 The most comprehensive Python Jawbone UP API wrapper.
